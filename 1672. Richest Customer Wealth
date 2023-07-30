@@ -1,5 +1,5 @@
 배열 안의 배열의 sum이 최대인 인덱스를 찾는 문제
-
+#1.
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
         large = 0
@@ -9,3 +9,8 @@ class Solution:
 
         return large
 
+
+#2.
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+        return max([sum(acc) for acc in accounts])
