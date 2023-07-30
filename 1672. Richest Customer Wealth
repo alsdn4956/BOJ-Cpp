@@ -1,0 +1,11 @@
+배열 안의 배열의 sum이 최대인 인덱스를 찾는 문제
+
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+        large = 0
+
+        for money in accounts:
+            large = max(sum(money), large)
+
+        return large
+
