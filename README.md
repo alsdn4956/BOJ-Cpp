@@ -1,3 +1,4 @@
-##Solved
+# Solved
 
-# C++ Algorithm
+## C++ Algorithm
+ 
