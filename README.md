@@ -1,2 +1,3 @@
-# Leetcode
-## beginner
+#Solved
+
+## C++ Algorithm
